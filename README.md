@@ -1,3 +1,3 @@
-An sample app developed with FuelPHP framework.
+A sample app developed with FuelPHP framework.
 
 Visit  http://fuelphp.com
