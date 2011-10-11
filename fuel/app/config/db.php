@@ -16,10 +16,10 @@ return array(
 	Fuel::DEVELOPMENT => array(
 		'type'			=> 'mysql',
 		'connection'	=> array(
-			'hostname'   => 'localhost',
-			'database'   => 'fuel_dev',
+			'hostname'   => '127.0.0.1',
+			'database'   => 'registrations',
 			'username'   => 'root',
-			'password'   => '',
+			'password'   => 'root',
 			'persistent' => false,
 		),
 		'table_prefix' => '',
@@ -32,9 +32,9 @@ return array(
 		'type'			=> 'mysql',
 		'connection'	=> array(
 			'hostname'   => 'localhost',
-			'database'   => 'fuel_prod',
+			'database'   => '',
 			'username'   => 'root',
-			'password'   => '',
+			'password'   => 'root',
 			'persistent' => false,
 		),
 		'table_prefix' => '',
